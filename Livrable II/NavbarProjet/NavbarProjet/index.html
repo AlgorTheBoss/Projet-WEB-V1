@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Side Navigation bar Using HTML and CSS</title>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+<div class="wrapper hover_collapse">
+	<div class="top_navbar">
+		
+		<div class="menu">
+			<div class="hamburger">
+				<i class="fas fa-bars"></i>
+			</div>
+			<div id="logo">
+				<img src="./img/image.png" alt="Trulli">
+			</div>
+			<div class="user-pic">
+				<img src="./img/Pierre.JPG"  onclick="toogleMenu()">
+			</div>
+			
+
+			<div class="sub-menu-wrap" id="subMenu">
+				<div class="sub-menu">
+					<div class="user-info">
+						<img src="./img/Pierre.JPG">
+						<h3>Pierre L'Homme</h3>
+
+					</div>
+					<hr>
+
+					<a href="#" class="sub-menu-link">
+						<i class='far fa-address-card'></i>
+						<p>Profile</p>
+						<span>></span>
+					</a>
+
+					<a href="#" class="sub-menu-link">
+						<i class="fas fa-question-circle"></i>
+						<p>Help & Support</p>
+						<span>></span>
+					</a>
+
+					<a href="#" class="sub-menu-link">
+						<i class="fas fa-sign-out-alt"></i>						<p>Logout</p>
+						<span>></span>
+					</a>
+
+
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="sidebar">
+		<div class="sidebar_inner">
+		<ul>
+			<li>
+				<a href="#">
+					<span class="icon"><i class='fas fa-address-book' ></i></span>
+					<span class="text">Trombinoscope</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="icon"><i class="fas fa-skiing"></i></span>
+					<span class="text">Ski</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="icon"><i class="far fa-futbol"></i></span>
+					<span class="text">Football</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="icon"><i class="fas fa-file-pdf"></i></span>
+					<span class="text">PDF d'alois</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="icon"><i class='fas fa-glasses'></i></span>
+					<span class="text">Lunettes de Jean</span>
+				</a>
+			</li>
+		</ul>
+		</div>
+	</div>
+
+	<div class="main_container">
+		<div class="container">
+			<div class="content">
+				Pierre et le Loup (Pétia i volk, en russe : Петя и волк) opus 67, est un conte symphonique didactique pédagogique allégorique pour enfants, de 1936, de l'auteur-compositeur-interprète russe Sergueï Prokofiev (1891-1953).
+
+				Le conte raconte l'histoire de Pierre, un garçon qui, malgré les avertissements de son grand-père, capture un loup et sauve ses amis les animaux.
+				
+				La musique de Pierre et le Loup est célèbre pour son utilisation de thèmes musicaux associés à chaque personnage, comme un air joyeux pour Pierre et une mélodie menaçante pour le loup. Le conte est souvent utilisé pour enseigner la reconnaissance des instruments de musique aux enfants.
+				
+				Pierre et le Loup a été créé à Moscou en 1936 et a été joué dans le monde entier depuis. Ce conte est considéré comme une œuvre importante dans l'histoire de la musique pour enfants et une des œuvres les plus célèbres de Prokofiev, et continue d'être populaire auprès des jeunes auditoires.			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
